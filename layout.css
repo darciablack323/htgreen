@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-image: url(images/bg800bulbs.jpg);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+
+.wrapper {
+max-width: 50vw;
+margin: 2rem auto 5rem auto;
+}
+
+main {
+    background-color: white;
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+header img {
+    width: 50%;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4rem;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+nav a:link,
+a:visited,
+a:active {
+
+color: black;
+}
+
+nav a:hover {
+color: rgba(124, 95, 60, 0.623);
+}
+
+h1,h2 {
+    margin-bottom: 25px;
+    border-bottom: 1px solid;
+}
+
+
+.towards {
+    margin-bottom: 32px;
+}
+
+.solar {
+    margin-bottom: 150px;
+    text-align: left;
+}
+
+    .floatright {
+        float: right;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+
+.geothermal {
+    margin-bottom: 50px;  
+}
+
+
+
+.turbines {
+    margin-bottom: 100px;
+}
+
+
+
+.about {
+    margin-bottom: 100px;
+}
+
+.btt {
+    background-color: rgb(228, 225, 225);
+    border: 1px solid black;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.btt:hover {
+    background-color: rgb(117, 117, 117);
+    color: white;
+}
+
+.brown {
+    margin-bottom: 75px; 
+    border: solid rgb(143, 201, 188);
+    border-width: 1px 1px 1px 8px;
+    width: 100%px;
+    padding: 1rem;
+}
+
+    .floatleft {
+        float: left;
+        padding-right: 1rem;
+     }
+
+
+.hill {
+    margin-bottom: 75px;
+    padding-right: 1rem;
+    border: solid rgb(143, 201, 188);
+    border-width: 1px 1px 1px 8px;
+    width: 100%px;
+    padding: 1rem;
+}
+
+
+.sanderson {
+    margin-bottom: 100px;
+    border: solid rgb(143, 201, 188);
+    border-width: 1px 1px 1px 8px;
+    width: 100%px;
+    padding: 1rem;
+}
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+caption {
+    font-size: 25px;
+}
+
+thead th:nth-child(1), thead th:nth-child(2), thead th:nth-child(3), thead th:nth-child(4), tfoot {
+    width: 50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  
+  th,
+  td {
+    padding: 10px;
+  }
+
+  tbody {
+    text-align: center;
+  }
+
+  thead,
+  tfoot {
+    background-color: rgba(119, 104, 90, 0.5);
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: rgba(215, 245, 237, 0.411);
+  }
+ 
+
+
+.clearfloater {
+    clear: both;
+}
+
+form {
+    background-color:rgb(170, 231, 218);
+    padding-bottom: 5px;
+}
+
+fieldset {
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    border: soild 1px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    text-align: left;
+    padding: 1.5rem;
+    font-size: 20px;
+}
+
+.checks label {
+    margin-top: 0;
+}
+
+label:first-of-type {
+    margin-top: 0;
+} 
+
+input {
+    padding: 0.5em;
+    border: soild 1px #999;
+}
+
+textarea {
+    min-height: 8em;
+    min-width: 95%;
+    padding: 10em;
+    border: soild 1px #999;
+    margin: auto;
+    display: block;
+}
+
+input[type="name"], input[type="phone"], input[type="email"] {
+    width: 95%;
+    display: block;
+    margin: auto;
+    padding: 1em;
+}
+
+
+
+.checks {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.checks p {
+    margin-bottom: 0;
+}
+
+input[tyoe="checkbox"] + label, input[type="radio"] + label {
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+input[type="radio"] {
+    margin-left: 1.5rem;
+    margin-right: 0;
+}
+
+input[type="radio"]:first-of-type {
+    margin-left: 0;
+}
+
+input[type="submit"] {
+    padding: 1rem 6rem 1rem 6rem ;
+    border-radius: 0;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    margin: auto;
+    display: block;
+    margin-bottom: 100px;
+}
+
+
+
+.btt2 {
+    background-color: rgb(228, 225, 225);
+    border: 1px solid black;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.btt2:hover {
+    background-color: rgb(117, 117, 117);
+    color: white;
+}
+
+footer {
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(255, 115, 0);
+    padding: 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
